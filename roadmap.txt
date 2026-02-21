@@ -1,0 +1,154 @@
+dsa-learning/
+│
+├── 00_problem_solving_foundation/
+│   problem_understanding.md
+│   dry_run_examples.md
+│   complexity_basics.md
+│   edge_cases.md
+│
+├── 01_brute_force/
+│   find_max.py
+│   find_duplicates.py
+│   pair_sum.py
+│   nested_loop_examples.py
+│   brute_force_patterns.md
+│
+├── 02_arrays_strings/
+│   traversing.py
+│   reversing.py
+│   counting.py
+│   comparing.py
+│   find_min_max.py
+│   remove_duplicates.py
+│   string_palindrome.py
+│   array_patterns.md
+│
+├── 03_hashmap_dictionary/
+│   frequency_count.py
+│   two_sum.py
+│   group_anagrams.py
+│   first_unique_char.py
+│   hashmap_patterns.md
+│
+├── 04_sorting/
+│   basic_sorting.py
+│   sort_strings.py
+│   merge_intervals.py
+│   custom_sort.py
+│   sorting_patterns.md
+│
+├── 05_two_pointers/
+│   pair_sum_sorted.py
+│   remove_duplicates.py
+│   container_with_most_water.py
+│   reverse_string.py
+│   two_pointers_patterns.md
+│
+├── 06_sliding_window/
+│   max_sum_subarray.py
+│   longest_substring.py
+│   min_window_substring.py
+│   fixed_window_examples.py
+│   sliding_window_patterns.md
+│
+├── 07_prefix_sum/
+│   range_sum.py
+│   subarray_sum_equals_k.py
+│   prefix_sum_intro.py
+│
+├── 08_binary_search/
+│   basic_binary_search.py
+│   search_insert_position.py
+│   find_peak.py
+│   rotated_array_search.py
+│   binary_search_patterns.md
+│
+├── 09_stack/
+│   valid_parentheses.py
+│   next_greater_element.py
+│   min_stack.py
+│   stack_patterns.md
+│
+├── 10_queue_deque/
+│   queue_basics.py
+│   sliding_window_max.py
+│   bfs_intro.py
+│
+├── 11_linked_list/
+│   reverse_linked_list.py
+│   detect_cycle.py
+│   merge_two_lists.py
+│   linked_list_patterns.md
+│
+├── 12_trees/
+│   tree_traversals.py
+│   max_depth.py
+│   invert_tree.py
+│   level_order_traversal.py
+│   trees_patterns.md
+│
+├── 13_binary_search_tree/
+│   validate_bst.py
+│   insert_node.py
+│   lowest_common_ancestor.py
+│
+├── 14_graphs/
+│   dfs.py
+│   bfs.py
+│   number_of_islands.py
+│   cycle_detection.py
+│   graphs_patterns.md
+│
+├── 15_recursion/
+│   factorial.py
+│   fibonacci.py
+│   recursion_tree_examples.md
+│   recursion_patterns.md
+│
+├── 16_backtracking/
+│   permutations.py
+│   combinations.py
+│   subsets.py
+│   sudoku_solver.py
+│   backtracking_patterns.md
+│
+├── 17_greedy/
+│   interval_scheduling.py
+│   jump_game.py
+│   minimum_coins.py
+│   greedy_patterns.md
+│
+├── 18_dynamic_programming/
+│   fibonacci_dp.py
+│   climbing_stairs.py
+│   knapsack.py
+│   longest_common_subsequence.py
+│   dp_patterns.md
+│
+├── 19_heap_priority_queue/
+│   kth_largest.py
+│   top_k_frequent.py
+│   merge_k_lists.py
+│
+├── 20_trie/
+│   trie_implementation.py
+│   word_search.py
+│
+├── 21_union_find/
+│   union_find_basic.py
+│   connected_components.py
+│
+├── 22_bit_manipulation/
+│   single_number.py
+│   count_bits.py
+│
+├── 23_advanced_structures/
+│   segment_tree_intro.py
+│   fenwick_tree_intro.py
+│
+├── 24_interview_patterns/
+│   top_50_patterns.md
+│   problem_checklist.md
+│   thinking_framework.md
+│
+└── README.md
