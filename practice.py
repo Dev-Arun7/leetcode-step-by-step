@@ -1,12 +1,11 @@
-def method(nums):
-    for i in range(len(nums)):
-        for j in range(i + 1):
-            print()
+def my_function(words):
+    result = sorted(words, key=lambda word: word.lower())
+    return result
 
-nums = 5
-target = 99
-result = method(nums)
+
+
+
+
+example_words = ["Zebra", "apple", "Mango", "banana", "kiwi"]
+result = my_function(example_words)
 print(result)
-
-
-
