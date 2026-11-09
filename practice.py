@@ -1,26 +1,24 @@
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
-            return False
-        s_freq = {}
-        t_freq = {}
-        for letter in s:
-            s_freq[letter] = s_freq.get(letter, 0) + 1
-        for letter in t:
-            t_freq[letter] = t_freq.get(letter, 0) + 1
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
 
-        for key, value in s_freq.items():
-            if t_freq.get(key, None) and t_freq.get(key, None) == value:
-                continue
-            else:
-                return False
-        
+        anagrams = {}
 
-obj = Solution()
-s = "anagram"
-t = "nagaram"
-result = obj.isAnagram(s, t)
+        for word in strs:
 
+            # Create an array of 26 zeros (a to z)
+            char_count = [0] * 26
 
-print(result)
+            # Count the frequency of each character
+            for char in word:
+                char_count[ord(char) - ord('a')] += 1
 
+            # Convert the list into a tuple (tuples can be dictionary keys)
+            key = tuple(char_count)
+
+            # Group words with the same character frequencies
+            if key not in anagrams:
+                anagrams[key] = []
+
+            anagrams[key].append(word)
+
+        return list(anagrams.values())
